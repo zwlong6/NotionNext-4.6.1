@@ -69,8 +69,8 @@ const BLOG = {
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     // '"LXGW WenKai"',
-    '"PingFang SC"',
-    '-apple-system',
+    // '"PingFang SC"',
+    // '-apple-system',
     'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
     '"Microsoft YaHei"',
@@ -463,7 +463,7 @@ const BLOG = {
   // 微软 Clarity 站点分析
   CLARITY_ID: process.env.NEXT_PUBLIC_CLARITY_ID || 'ngsmdz0446', // 只需要复制Clarity脚本中的ID部分，ID是一个十位的英文数字组合
 
-  
+
   // <---- 站点统计
 
   // START---->营收相关

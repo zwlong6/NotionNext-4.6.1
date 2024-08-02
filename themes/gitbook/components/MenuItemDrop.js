@@ -37,9 +37,9 @@ export const MenuItemDrop = ({ link }) => {
       {!hasSubMenu && (
         <div
           className={
-            'px-1 h-full whitespace-nowrap duration-300 text-sm justify-between dark:text-gray-300 cursor-pointer flex flex-nowrap items-center rounded-full border-l-2 border-r-2 ' +
+            'px-1 h-full whitespace-nowrap duration-300 text-sm justify-between dark:text-gray-300 cursor-pointer flex flex-nowrap items-center ' +
             (selected
-              ? 'bg-blue-600 text-white hover:text-white'
+              ? 'bg-blue-600 text-white hover:text-white rounded-full border-l-2 border-r-2'
               : 'hover:text-blue-600')
           }>
           <Link href={link?.href} target={link?.target}>

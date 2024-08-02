@@ -81,7 +81,7 @@ const BLOG = {
     // 'HarmonyOS_Regular',
     // '"Helvetica Neue"',
     // 'Helvetica',
-    '"Source Han Sans SC"',
+    // '"Source Han Sans SC"',
     'Arial',
     'sans-serif',
     '"Apple Color Emoji"'

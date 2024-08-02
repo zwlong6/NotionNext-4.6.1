@@ -83,7 +83,7 @@ const BLOG = {
     // 'Helvetica',
     // '"Source Han Sans SC"',
     // 'Arial',
-    'sans-serif',
+    // 'sans-serif',
     '"Apple Color Emoji"'
   ],
   // 衬线字体 例如'"LXGW WenKai"'

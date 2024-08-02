@@ -71,7 +71,7 @@ const BLOG = {
     // '"LXGW WenKai"',
     // '"PingFang SC"',
     // '-apple-system',
-    'BlinkMacSystemFont',
+    // 'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
     '"Microsoft YaHei"',
     '"Segoe UI Emoji"',

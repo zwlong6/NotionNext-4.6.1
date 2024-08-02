@@ -77,7 +77,7 @@ const BLOG = {
     // '"Segoe UI Emoji"',
     // '"Segoe UI Symbol"',
     // '"Segoe UI"',
-    '"Noto Sans SC"',
+    // '"Noto Sans SC"',
     'HarmonyOS_Regular',
     '"Helvetica Neue"',
     'Helvetica',

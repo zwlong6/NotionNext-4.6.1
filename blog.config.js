@@ -73,7 +73,7 @@ const BLOG = {
     // '-apple-system',
     // 'BlinkMacSystemFont',
     // '"Hiragino Sans GB"',
-    '"Microsoft YaHei"',
+    // '"Microsoft YaHei"',
     '"Segoe UI Emoji"',
     '"Segoe UI Symbol"',
     '"Segoe UI"',

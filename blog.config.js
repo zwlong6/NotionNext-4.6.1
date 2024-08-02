@@ -72,7 +72,7 @@ const BLOG = {
     // '"PingFang SC"',
     // '-apple-system',
     // 'BlinkMacSystemFont',
-    '"Hiragino Sans GB"',
+    // '"Hiragino Sans GB"',
     '"Microsoft YaHei"',
     '"Segoe UI Emoji"',
     '"Segoe UI Symbol"',

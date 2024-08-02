@@ -82,7 +82,7 @@ const BLOG = {
     // '"Helvetica Neue"',
     // 'Helvetica',
     // '"Source Han Sans SC"',
-    'Arial',
+    // 'Arial',
     'sans-serif',
     '"Apple Color Emoji"'
   ],

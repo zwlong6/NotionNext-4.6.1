@@ -13,13 +13,13 @@ export const MenuItemDrop = ({ link }) => {
   const selected = router.pathname === link.href || router.asPath === link.href
   return (
     <li
-      className='cursor-pointer list-none items-center flex mx-0'
+      className='cursor-pointer list-none items-center flex mx-1'
       onMouseOver={() => changeShow(true)}
       onMouseOut={() => changeShow(false)}>
       {hasSubMenu && (
         <div
           className={
-            'px-0 h-full whitespace-nowrap duration-300 text-sm justify-between dark:text-gray-300 cursor-pointer flex flex-nowrap items-center ' +
+            'px-1 h-full whitespace-nowrap duration-300 text-sm justify-between dark:text-gray-300 cursor-pointer flex flex-nowrap items-center ' +
             (selected
               ? 'bg-green-600 text-white hover:text-white'
               : 'hover:text-green-600')

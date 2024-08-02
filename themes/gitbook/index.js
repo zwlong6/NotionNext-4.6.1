@@ -422,7 +422,7 @@ const LayoutCategoryIndex = props => {
   const { locale } = useGlobal()
   return (
     <>
-      <div className='bg-white dark:bg-gray-700 py-10'>
+      <div className='bg-white dark:bg-black py-10'>
         <div className='dark:text-gray-200 mb-5'>
           <i className='mr-4 fas fa-th' />
           {locale.COMMON.CATEGORY}:
@@ -460,7 +460,7 @@ const LayoutTagIndex = props => {
 
   return (
     <>
-      <div className='bg-white dark:bg-gray-700 py-10'>
+      <div className='bg-white dark:bg-black py-10'>
         <div className='dark:text-gray-200 mb-5'>
           <i className='mr-4 fas fa-tag' />
           {locale.COMMON.TAGS}:

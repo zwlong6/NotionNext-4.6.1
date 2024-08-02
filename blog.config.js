@@ -70,7 +70,7 @@ const BLOG = {
   FONT_SANS: [
     // '"LXGW WenKai"',
     // '"PingFang SC"',
-    '-apple-system',
+    // '-apple-system',
     'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
     '"Microsoft YaHei"',

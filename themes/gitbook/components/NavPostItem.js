@@ -28,7 +28,7 @@ const NavPostItem = props => {
       <>
         <div
           onClick={toggleOpenSubMenu}
-          className='select-none relative flex justify-between text-sm cursor-pointer p-2 hover:bg-gray-50 rounded-md dark:hover:bg-gray-50 dark:hover:text-black'
+          className='select-none relative flex justify-between text-sm cursor-pointer p-2 hover:bg-gray-100 rounded-md dark:hover:bg-gray-100 dark:hover:text-black'
           key={group?.category}>
           <span>{group?.category}</span>
           <div className='inline-flex items-center select-none pointer-events-none '>

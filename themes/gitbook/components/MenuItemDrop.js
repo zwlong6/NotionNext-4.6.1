@@ -22,7 +22,7 @@ export const MenuItemDrop = ({ link }) => {
             'px-1 h-full whitespace-nowrap duration-300 text-sm justify-between dark:text-gray-300 cursor-pointer flex flex-nowrap items-center ' +
             (selected
               ? 'bg-green-600 text-white hover:text-white'
-              : 'hover:text-green-600')
+              : 'hover:text-blue-600')
           }>
           <div>
             {link?.icon && <i className={link?.icon} />} {link?.name}
@@ -40,7 +40,7 @@ export const MenuItemDrop = ({ link }) => {
             'px-1 h-full whitespace-nowrap duration-300 text-sm justify-between dark:text-gray-300 cursor-pointer flex flex-nowrap items-center ' +
             (selected
               ? 'bg-green-600 text-white hover:text-white'
-              : 'hover:text-green-600')
+              : 'hover:text-blue-600')
           }>
           <Link href={link?.href} target={link?.target}>
             {link?.icon && <i className={link?.icon} />} {link?.name}

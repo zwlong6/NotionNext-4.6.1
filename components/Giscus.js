@@ -37,7 +37,7 @@ const GiscusComponent = () => {
       data-reactions-enabled={siteConfig('COMMENT_GISCUS_REACTIONS_ENABLED')}
       data-emit-metadata={siteConfig('COMMENT_GISCUS_EMIT_METADATA')}
       data-input-position={siteConfig('COMMENT_GISCUS_INPUT_POSITION')}
-      data-theme={theme}
+      data-theme="preferred_color_scheme"
       data-lang={siteConfig('COMMENT_GISCUS_LANG')}
       data-loading={siteConfig('COMMENT_GISCUS_LOADING')}
       //   crossorigin={siteConfig('COMMENT_GISCUS_CROSSORIGIN')}

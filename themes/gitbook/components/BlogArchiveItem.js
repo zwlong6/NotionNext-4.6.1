@@ -7,12 +7,13 @@ import Link from 'next/link'
  */
 export default function BlogArchiveItem({ archiveTitle, archivePosts }) {
   return (
+    // archiveTitle:"2024-07"
     <div key={archiveTitle}>
       <div id={archiveTitle} className='pt-16 pb-4 text-3xl dark:text-gray-300'>
         {archiveTitle}
       </div>
       <ul>
-        {archivePosts[archiveTitle]?.map(post => {
+        {archivePosts[archiveTitle.publishDay]?.map(post => {
           return (
             <li
               key={post.id}

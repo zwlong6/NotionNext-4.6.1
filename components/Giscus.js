@@ -13,7 +13,7 @@ import { useEffect } from 'react'
 
 const GiscusComponent = () => {
   const { isDarkMode } = useGlobal()
-  const theme = isDarkMode ? 'dark' : 'light'
+  const theme = isDarkMode ? 'dark_high_contrast' : 'light_high_contrast'
   useEffect(() => {
     loadExternalResource('/js/giscus.js', 'js').then(() => {
       if (window?.Giscus?.init) {

@@ -13,7 +13,7 @@ export default function BlogArchiveItem({ archiveTitle, archivePosts }) {
         {archiveTitle}
       </div>
       <ul>
-        {archivePosts[archiveTitle.publishDay]?.map(post => {
+        {archivePosts[archiveTitle]?.map(post => {
           return (
             <li
               key={post.id}

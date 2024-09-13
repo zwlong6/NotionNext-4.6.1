@@ -11,8 +11,8 @@ const Footer = ({ title }) => {
       className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'
     >
       {/* <DarkModeButton/> */}
-
-      <i className='fas fa-copyright' /> {`${copyrightDate}`} <span><i className='mx-1 animate-pulse fas fa-heart' /> <a href={siteConfig('LINK')} className='underline font-bold  dark:text-gray-300 '>{siteConfig('AUTHOR')}</a>.<br />
+      {/* {siteConfig('LINK')} */}
+      <i className='fas fa-copyright' /> {`${copyrightDate}`} <span><i className='mx-1 animate-pulse fas fa-heart' /> <a href='https://github.com/zwlong6' className='underline font-bold  dark:text-gray-300 '>{siteConfig('AUTHOR')}</a>.<br />
 
         {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a><br /></>}
 
